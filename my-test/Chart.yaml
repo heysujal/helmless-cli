@@ -1,0 +1,10 @@
+apiVersion: v2
+appVersion: 0.1.0
+dependencies:
+- alias: app
+  name: google-cloudrun-service
+  repository: oci://ghcr.io/helmless
+  version: 0.1.0
+name: my-test
+type: application
+version: 0.1.0

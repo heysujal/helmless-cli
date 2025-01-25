@@ -1,0 +1,4 @@
+app:
+  name: my-helmless-app
+  region: europe-west1
+  project: my-gcp-project

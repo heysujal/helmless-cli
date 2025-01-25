@@ -1,0 +1,4 @@
+app:
+  name: my-test
+  region: europe-west1
+  project: my-gcp-project

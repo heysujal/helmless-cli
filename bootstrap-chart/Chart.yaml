@@ -1,0 +1,12 @@
+apiVersion: v2
+name: custom-chart
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: '0.1.0'
+
+dependencies:
+  - name: google-cloudrun-service
+    repository: oci://ghcr.io/helmless
+    version: 0.1.0
+    alias: app
