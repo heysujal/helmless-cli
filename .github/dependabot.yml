@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "helm" 
+  - package-ecosystem: "helm"
     directory: "/bootstrap-chart"
     schedule:
       interval: "weekly"
